@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+scikit-learn
+anthropic
+reportlab
+python-pptx
+sqlalchemy>=2.0
+bcrypt

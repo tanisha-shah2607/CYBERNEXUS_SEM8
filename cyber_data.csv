@@ -1,0 +1,801 @@
+date,client,region,product,sales_amount,licenses_sold,employee,threat_type,attack_count
+2023-01-01,E-commerce,US,Firewall,23288,15,Charlie,Malware,95
+2023-01-02,Gov,Europe,Endpoint Security,31545,23,Emma,Phishing,175
+2023-01-03,Bank,US,SIEM,38877,24,Bob,Malware,123
+2023-01-04,E-commerce,US,Endpoint Security,48026,44,David,Ransomware,192
+2023-01-05,E-commerce,Europe,Antivirus,17313,13,Bob,DDoS,216
+2023-01-06,Gov,US,Antivirus,17349,22,David,Phishing,265
+2023-01-07,Bank,Europe,Endpoint Security,9179,43,Charlie,Malware,244
+2023-01-08,Bank,US,Endpoint Security,12326,37,Charlie,Malware,12
+2023-01-09,E-commerce,Asia,Firewall,46555,33,Charlie,Ransomware,217
+2023-01-10,Hospital,Asia,Antivirus,3560,3,Charlie,Phishing,206
+2023-01-11,E-commerce,US,Antivirus,15612,19,Alice,DDoS,134
+2023-01-12,E-commerce,US,Endpoint Security,19650,23,Alice,Malware,147
+2023-01-13,E-commerce,US,SIEM,28745,29,Emma,Phishing,34
+2023-01-14,E-commerce,Asia,Antivirus,33890,30,Bob,DDoS,77
+2023-01-15,Gov,US,SIEM,22022,39,David,Malware,70
+2023-01-16,Bank,Asia,Endpoint Security,6780,44,David,Malware,38
+2023-01-17,Gov,Europe,Endpoint Security,20311,47,Alice,DDoS,28
+2023-01-18,Gov,Asia,Firewall,30380,25,David,DDoS,180
+2023-01-19,Gov,Asia,Antivirus,46662,37,Alice,Ransomware,83
+2023-01-20,E-commerce,Europe,SIEM,4356,47,Emma,Phishing,70
+2023-01-21,Hospital,Asia,Firewall,6790,8,Bob,Phishing,162
+2023-01-22,Bank,US,Antivirus,28911,42,Emma,Ransomware,285
+2023-01-23,Hospital,US,Firewall,26363,16,Charlie,Malware,57
+2023-01-24,Gov,Asia,Endpoint Security,22049,8,Charlie,DDoS,220
+2023-01-25,Gov,US,Antivirus,12181,1,Charlie,DDoS,148
+2023-01-26,Hospital,Asia,Firewall,41825,44,Emma,DDoS,119
+2023-01-27,Hospital,US,Firewall,18082,5,David,Malware,192
+2023-01-28,Hospital,US,SIEM,2661,3,Bob,DDoS,37
+2023-01-29,Gov,Asia,Firewall,39412,1,Charlie,DDoS,206
+2023-01-30,Gov,US,Antivirus,4920,4,Charlie,Ransomware,200
+2023-01-31,Bank,Asia,Antivirus,27658,40,Charlie,Malware,60
+2023-02-01,Bank,US,SIEM,16025,35,Bob,Phishing,158
+2023-02-02,Gov,US,Antivirus,10946,32,Charlie,Ransomware,277
+2023-02-03,Hospital,Europe,Endpoint Security,30706,42,Bob,Ransomware,59
+2023-02-04,Hospital,Europe,Antivirus,47500,34,Charlie,Phishing,255
+2023-02-05,Bank,Asia,Antivirus,41004,43,Emma,Ransomware,122
+2023-02-06,Gov,Europe,Firewall,18309,25,Emma,Malware,179
+2023-02-07,Bank,Asia,Firewall,48286,10,Bob,DDoS,175
+2023-02-08,Bank,Europe,Antivirus,35120,21,Emma,Malware,23
+2023-02-09,E-commerce,US,SIEM,32027,46,Bob,Phishing,212
+2023-02-10,E-commerce,Asia,Firewall,9005,39,Emma,Phishing,297
+2023-02-11,E-commerce,Asia,SIEM,48804,27,Emma,Ransomware,198
+2023-02-12,Hospital,US,Antivirus,8868,27,Bob,Malware,164
+2023-02-13,Gov,Asia,Antivirus,36839,2,David,Malware,64
+2023-02-14,Gov,Asia,Endpoint Security,10595,41,Emma,Phishing,191
+2023-02-15,Gov,Europe,Firewall,49908,48,Charlie,Malware,219
+2023-02-16,Gov,Asia,Antivirus,14803,13,David,Phishing,84
+2023-02-17,E-commerce,US,Endpoint Security,27963,9,Bob,Malware,286
+2023-02-18,Hospital,Europe,Firewall,38221,36,David,Malware,142
+2023-02-19,Hospital,Europe,Antivirus,41443,22,Alice,Malware,68
+2023-02-20,E-commerce,US,Antivirus,35723,42,Alice,Phishing,191
+2023-02-21,Hospital,US,Firewall,41063,26,Emma,Ransomware,73
+2023-02-22,E-commerce,Europe,Firewall,17282,12,Emma,Malware,269
+2023-02-23,Gov,Asia,Firewall,6703,17,Charlie,Phishing,202
+2023-02-24,E-commerce,Europe,Antivirus,8563,14,David,Phishing,152
+2023-02-25,Gov,US,Antivirus,27849,14,Alice,Malware,113
+2023-02-26,Gov,Europe,Endpoint Security,33860,34,Emma,Malware,223
+2023-02-27,Bank,US,SIEM,33585,20,David,Ransomware,251
+2023-02-28,E-commerce,Europe,Firewall,24015,11,Emma,Phishing,218
+2023-03-01,Bank,Asia,Antivirus,14003,16,Emma,Phishing,102
+2023-03-02,E-commerce,Europe,Antivirus,45585,31,Alice,DDoS,151
+2023-03-03,E-commerce,Europe,Firewall,28958,6,Alice,Phishing,121
+2023-03-04,Bank,US,SIEM,28017,19,Emma,Ransomware,68
+2023-03-05,Bank,US,Firewall,13171,37,Bob,DDoS,52
+2023-03-06,E-commerce,US,SIEM,47350,4,Emma,DDoS,216
+2023-03-07,Hospital,Europe,Antivirus,14201,47,Emma,DDoS,277
+2023-03-08,Gov,Asia,SIEM,31426,4,Charlie,Malware,127
+2023-03-09,Bank,US,Endpoint Security,19778,20,Charlie,Malware,29
+2023-03-10,Gov,US,Antivirus,47241,10,Charlie,Phishing,231
+2023-03-11,Hospital,Europe,Endpoint Security,44229,24,Bob,DDoS,175
+2023-03-12,Hospital,US,Firewall,23116,35,Bob,Ransomware,140
+2023-03-13,Hospital,Asia,Firewall,35297,26,Emma,Malware,660
+2023-03-14,Bank,Asia,Firewall,21342,37,Charlie,Ransomware,193
+2023-03-15,Hospital,US,SIEM,29490,38,Bob,Ransomware,99
+2023-03-16,Bank,US,Antivirus,21975,21,Alice,Malware,103
+2023-03-17,Hospital,Europe,Firewall,28723,40,Emma,Malware,22
+2023-03-18,Gov,Asia,Firewall,25279,39,David,Malware,239
+2023-03-19,Gov,Asia,Antivirus,14765,21,Emma,Malware,35
+2023-03-20,E-commerce,US,Firewall,48678,10,David,DDoS,84
+2023-03-21,Gov,Europe,Endpoint Security,13561,38,Charlie,DDoS,159
+2023-03-22,E-commerce,Asia,Antivirus,43899,46,David,DDoS,157
+2023-03-23,Gov,Asia,Antivirus,2525,4,Charlie,DDoS,17
+2023-03-24,Bank,Europe,Antivirus,74583,45,Alice,Phishing,38
+2023-03-25,Gov,Europe,Endpoint Security,35142,20,David,DDoS,218
+2023-03-26,E-commerce,Asia,Antivirus,28916,17,Emma,Malware,137
+2023-03-27,E-commerce,Asia,Endpoint Security,46965,7,Charlie,Ransomware,125
+2023-03-28,Hospital,Europe,Antivirus,6648,4,Emma,DDoS,153
+2023-03-29,Bank,Asia,SIEM,37133,29,Bob,Phishing,244
+2023-03-30,Gov,US,Firewall,32523,14,Charlie,Malware,16
+2023-03-31,Hospital,US,SIEM,31052,3,David,Ransomware,54
+2023-04-01,Gov,Europe,Firewall,36414,24,Charlie,Ransomware,248
+2023-04-02,Gov,Europe,Endpoint Security,34781,37,Emma,DDoS,164
+2023-04-03,Hospital,Europe,SIEM,6599,16,Alice,Ransomware,190
+2023-04-04,Hospital,US,Antivirus,37046,4,Charlie,DDoS,224
+2023-04-05,Hospital,Asia,Firewall,49064,24,David,DDoS,97
+2023-04-06,Hospital,US,Firewall,37923,34,Bob,Malware,265
+2023-04-07,Hospital,Asia,SIEM,43089,30,Alice,Malware,82
+2023-04-08,Gov,US,Endpoint Security,5814,18,Bob,Phishing,188
+2023-04-09,Hospital,Asia,SIEM,47893,19,Charlie,Malware,221
+2023-04-10,Bank,US,Endpoint Security,37984,31,Emma,Malware,243
+2023-04-11,E-commerce,Europe,Endpoint Security,28616,19,Emma,DDoS,248
+2023-04-12,Hospital,US,Firewall,4113,49,David,Malware,232
+2023-04-13,Hospital,Asia,SIEM,45006,46,Emma,DDoS,128
+2023-04-14,Gov,US,SIEM,15760,19,Alice,DDoS,273
+2023-04-15,Hospital,US,Endpoint Security,23927,22,Emma,Malware,216
+2023-04-16,Hospital,US,SIEM,22939,24,David,Phishing,104
+2023-04-17,Hospital,Europe,Antivirus,34419,45,Charlie,Phishing,231
+2023-04-18,Gov,US,Antivirus,14588,12,Charlie,Ransomware,285
+2023-04-19,Hospital,Europe,SIEM,114426,30,Emma,Ransomware,240
+2023-04-20,E-commerce,Europe,SIEM,123594,38,Bob,Malware,128
+2023-04-21,Gov,US,Endpoint Security,46738,31,Charlie,Phishing,277
+2023-04-22,E-commerce,US,Antivirus,35397,36,Emma,DDoS,282
+2023-04-23,Gov,US,Antivirus,18653,19,David,Ransomware,73
+2023-04-24,Hospital,Asia,Firewall,12831,48,Emma,DDoS,20
+2023-04-25,E-commerce,US,Endpoint Security,7724,45,Charlie,Ransomware,107
+2023-04-26,Gov,Europe,Firewall,13083,36,David,Malware,80
+2023-04-27,Bank,US,Antivirus,47917,30,Emma,Phishing,67
+2023-04-28,Hospital,Asia,Endpoint Security,21816,49,Alice,Ransomware,299
+2023-04-29,Gov,US,SIEM,44240,33,David,Phishing,260
+2023-04-30,Bank,Asia,Endpoint Security,8276,18,Alice,DDoS,285
+2023-05-01,Gov,Asia,SIEM,40663,49,Bob,Malware,59
+2023-05-02,Bank,US,SIEM,15994,28,David,Phishing,225
+2023-05-03,Hospital,Europe,Endpoint Security,25499,47,Alice,Malware,61
+2023-05-04,E-commerce,Asia,SIEM,25040,11,Charlie,Phishing,280
+2023-05-05,Bank,US,Firewall,45320,45,Charlie,DDoS,93
+2023-05-06,Gov,US,Antivirus,18959,33,Bob,DDoS,135
+2023-05-07,Hospital,Europe,SIEM,8099,17,David,Malware,81
+2023-05-08,Bank,Asia,Firewall,44267,6,David,DDoS,245
+2023-05-09,Gov,Asia,SIEM,21576,4,David,Ransomware,65
+2023-05-10,Gov,US,Antivirus,37946,20,Bob,Phishing,119
+2023-05-11,Gov,US,Firewall,8116,48,David,DDoS,201
+2023-05-12,Bank,Europe,Antivirus,17563,47,Charlie,Ransomware,102
+2023-05-13,Bank,Europe,Antivirus,28788,27,Alice,Malware,65
+2023-05-14,Bank,Asia,Firewall,28928,15,Charlie,Ransomware,69
+2023-05-15,E-commerce,Asia,Firewall,38336,6,Charlie,Malware,147
+2023-05-16,Bank,US,Firewall,11847,47,Alice,Malware,48
+2023-05-17,Bank,Asia,Endpoint Security,28155,14,Charlie,Phishing,37
+2023-05-18,Bank,Europe,Firewall,16135,11,Bob,Phishing,58
+2023-05-19,E-commerce,Europe,Firewall,19774,39,Alice,Ransomware,134
+2023-05-20,Bank,US,Firewall,3742,9,Charlie,Phishing,22
+2023-05-21,Gov,Europe,Firewall,20309,26,Emma,Phishing,45
+2023-05-22,Bank,Europe,SIEM,2619,16,Charlie,Phishing,110
+2023-05-23,Gov,Europe,Endpoint Security,19658,5,Bob,Ransomware,291
+2023-05-24,Gov,Europe,Antivirus,36707,10,David,DDoS,95
+2023-05-25,Gov,US,Firewall,22337,3,Charlie,Phishing,13
+2023-05-26,E-commerce,US,SIEM,18001,13,David,Phishing,232
+2023-05-27,E-commerce,Asia,SIEM,2968,43,Emma,Ransomware,175
+2023-05-28,E-commerce,Europe,SIEM,49614,49,Charlie,DDoS,287
+2023-05-29,Bank,Asia,Antivirus,27892,30,Alice,Phishing,139
+2023-05-30,Gov,US,Firewall,27619,45,David,Malware,40
+2023-05-31,E-commerce,US,Endpoint Security,2281,6,Emma,Ransomware,20
+2023-06-01,E-commerce,US,Endpoint Security,29420,17,Alice,Phishing,105
+2023-06-02,Bank,US,SIEM,17360,45,Alice,Phishing,199
+2023-06-03,E-commerce,US,Antivirus,41030,19,Alice,Malware,201
+2023-06-04,Bank,US,Antivirus,3058,42,Alice,Malware,275
+2023-06-05,Hospital,US,Antivirus,22677,35,Charlie,Ransomware,137
+2023-06-06,E-commerce,Europe,Endpoint Security,12724,46,Charlie,Ransomware,247
+2023-06-07,Hospital,Asia,SIEM,30404,26,Charlie,Malware,121
+2023-06-08,Bank,US,Firewall,39946,5,Emma,Ransomware,154
+2023-06-09,Gov,Europe,Endpoint Security,41748,29,Emma,Malware,74
+2023-06-10,E-commerce,Europe,SIEM,31856,37,Emma,Phishing,256
+2023-06-11,Bank,Asia,SIEM,11200,20,Bob,Malware,232
+2023-06-12,Gov,US,Firewall,35997,49,Emma,Malware,115
+2023-06-13,Gov,Asia,Firewall,27611,21,Charlie,DDoS,190
+2023-06-14,Hospital,US,Firewall,43235,10,Charlie,Malware,193
+2023-06-15,Bank,Europe,Antivirus,37057,5,Bob,Malware,235
+2023-06-16,Gov,Europe,Firewall,3239,36,Bob,DDoS,274
+2023-06-17,E-commerce,Europe,SIEM,40138,6,Emma,Ransomware,287
+2023-06-18,E-commerce,Europe,Firewall,2125,26,David,DDoS,98
+2023-06-19,Hospital,Asia,SIEM,47272,4,Bob,Phishing,185
+2023-06-20,Gov,US,Endpoint Security,25857,39,Alice,DDoS,27
+2023-06-21,Bank,US,Antivirus,17398,39,Charlie,Phishing,115
+2023-06-22,E-commerce,Asia,Endpoint Security,8638,35,Alice,Ransomware,280
+2023-06-23,Gov,US,Endpoint Security,8570,1,Charlie,DDoS,176
+2023-06-24,Gov,Europe,SIEM,5249,24,Charlie,DDoS,22
+2023-06-25,Hospital,US,Endpoint Security,11110,36,Bob,Ransomware,41
+2023-06-26,E-commerce,Europe,SIEM,42363,6,Bob,Phishing,49
+2023-06-27,E-commerce,Asia,Firewall,15605,41,Alice,DDoS,157
+2023-06-28,Bank,US,Firewall,14115,46,Charlie,Phishing,227
+2023-06-29,E-commerce,Asia,SIEM,41062,44,Alice,DDoS,228
+2023-06-30,Bank,US,Firewall,24911,31,David,Malware,91
+2023-07-01,E-commerce,Europe,Antivirus,40525,20,Alice,DDoS,217
+2023-07-02,Hospital,Asia,Endpoint Security,34556,24,Emma,Ransomware,210
+2023-07-03,E-commerce,US,Antivirus,14595,25,Alice,Ransomware,47
+2023-07-04,Bank,Europe,Endpoint Security,3969,36,Emma,Phishing,220
+2023-07-05,Bank,Asia,Firewall,45753,21,Emma,DDoS,258
+2023-07-06,Hospital,Asia,Antivirus,19275,30,Emma,Phishing,236
+2023-07-07,E-commerce,US,Firewall,6470,24,David,Phishing,57
+2023-07-08,E-commerce,US,Endpoint Security,12225,44,Alice,Malware,27
+2023-07-09,Hospital,US,SIEM,132972,42,Alice,Malware,205
+2023-07-10,E-commerce,Europe,SIEM,43974,30,David,Ransomware,196
+2023-07-11,E-commerce,US,Antivirus,44759,22,Charlie,Phishing,233
+2023-07-12,Bank,Asia,Firewall,25196,28,Bob,Ransomware,238
+2023-07-13,E-commerce,Asia,Firewall,42287,7,Alice,DDoS,86
+2023-07-14,E-commerce,US,Antivirus,15669,35,Bob,Phishing,197
+2023-07-15,Hospital,US,SIEM,39380,28,David,Phishing,279
+2023-07-16,Hospital,Asia,Endpoint Security,47141,14,Charlie,DDoS,104
+2023-07-17,Gov,Europe,Antivirus,49414,10,Charlie,DDoS,141
+2023-07-18,Bank,US,Endpoint Security,40006,16,Charlie,Ransomware,48
+2023-07-19,E-commerce,US,SIEM,17577,16,David,Ransomware,81
+2023-07-20,E-commerce,Asia,Firewall,24473,31,Emma,DDoS,1160
+2023-07-21,Gov,US,SIEM,30625,42,Emma,Ransomware,169
+2023-07-22,E-commerce,Europe,Antivirus,17504,25,Bob,DDoS,196
+2023-07-23,Bank,Asia,Firewall,26089,13,Emma,Phishing,200
+2023-07-24,Gov,US,Antivirus,38487,6,Emma,Phishing,129
+2023-07-25,Bank,Asia,Antivirus,6906,44,Charlie,Malware,229
+2023-07-26,Gov,US,SIEM,33463,9,Charlie,Phishing,62
+2023-07-27,Gov,US,Antivirus,46912,45,Bob,DDoS,231
+2023-07-28,Hospital,US,SIEM,31259,36,Alice,Ransomware,140
+2023-07-29,Bank,Europe,Firewall,44823,43,Bob,Malware,246
+2023-07-30,E-commerce,Europe,SIEM,39208,20,Bob,Ransomware,255
+2023-07-31,E-commerce,Asia,Firewall,32659,18,David,DDoS,235
+2023-08-01,Bank,US,SIEM,37840,43,David,Phishing,217
+2023-08-02,E-commerce,US,Endpoint Security,33890,21,Bob,Malware,105
+2023-08-03,E-commerce,Europe,Endpoint Security,15598,4,Bob,DDoS,209
+2023-08-04,Bank,US,Antivirus,49055,33,Bob,Malware,256
+2023-08-05,Gov,Europe,SIEM,48733,27,Emma,Malware,81
+2023-08-06,Bank,US,SIEM,21508,7,David,Phishing,194
+2023-08-07,Gov,Asia,Firewall,44287,6,Bob,DDoS,15
+2023-08-08,E-commerce,US,Antivirus,15380,15,Charlie,Ransomware,215
+2023-08-09,E-commerce,US,SIEM,28984,18,Charlie,Malware,41
+2023-08-10,E-commerce,Europe,Antivirus,46633,32,Emma,Malware,108
+2023-08-11,Hospital,US,Endpoint Security,10125,11,Emma,Ransomware,265
+2023-08-12,Gov,US,SIEM,38059,20,Alice,DDoS,196
+2023-08-13,Hospital,Europe,SIEM,6033,24,Alice,Malware,85
+2023-08-14,Hospital,Asia,Antivirus,39873,15,Alice,Malware,186
+2023-08-15,Bank,Asia,SIEM,19087,48,Emma,Malware,296
+2023-08-16,Hospital,Europe,Antivirus,42901,7,Emma,DDoS,264
+2023-08-17,Bank,Europe,SIEM,7704,21,Emma,DDoS,199
+2023-08-18,Bank,Europe,Firewall,9848,42,Charlie,Ransomware,136
+2023-08-19,Hospital,Europe,Antivirus,23592,26,Emma,DDoS,296
+2023-08-20,Gov,Europe,SIEM,47743,44,Charlie,DDoS,263
+2023-08-21,Gov,Asia,Endpoint Security,8924,14,Alice,Phishing,222
+2023-08-22,Gov,Asia,SIEM,29208,37,Alice,Ransomware,259
+2023-08-23,Gov,Europe,Endpoint Security,21614,21,Alice,Malware,93
+2023-08-24,Gov,US,Endpoint Security,2488,18,Bob,DDoS,22
+2023-08-25,Hospital,Europe,Firewall,41882,5,Bob,Malware,54
+2023-08-26,Hospital,US,Antivirus,27923,3,David,Malware,136
+2023-08-27,E-commerce,Europe,SIEM,37941,23,David,Phishing,123
+2023-08-28,Gov,Europe,Firewall,31165,26,David,DDoS,285
+2023-08-29,Hospital,Asia,SIEM,3667,37,Bob,Ransomware,214
+2023-08-30,E-commerce,US,Endpoint Security,28213,24,Bob,DDoS,282
+2023-08-31,Gov,US,Antivirus,6114,49,David,Malware,67
+2023-09-01,Bank,Asia,SIEM,38321,19,David,Ransomware,228
+2023-09-02,E-commerce,Asia,SIEM,29283,25,Emma,DDoS,118
+2023-09-03,Hospital,Asia,Endpoint Security,33116,21,David,Malware,288
+2023-09-04,Bank,Asia,SIEM,35768,12,Emma,Malware,732
+2023-09-05,Bank,US,SIEM,27426,41,Charlie,Phishing,273
+2023-09-06,Bank,US,Endpoint Security,19772,33,Bob,Phishing,120
+2023-09-07,E-commerce,Europe,Firewall,40218,4,David,Phishing,196
+2023-09-08,Hospital,Europe,Endpoint Security,5712,42,Bob,Malware,1112
+2023-09-09,Bank,Asia,Firewall,3367,7,Bob,DDoS,238
+2023-09-10,Gov,Asia,Antivirus,42957,22,Bob,Phishing,165
+2023-09-11,Bank,Asia,Firewall,43781,33,Charlie,DDoS,198
+2023-09-12,Bank,Europe,Firewall,28200,17,Alice,Phishing,281
+2023-09-13,E-commerce,Europe,Antivirus,5726,24,David,Ransomware,11
+2023-09-14,E-commerce,Europe,Firewall,25616,34,Alice,Ransomware,255
+2023-09-15,Hospital,Europe,Endpoint Security,29723,28,Alice,Phishing,219
+2023-09-16,Gov,Europe,Firewall,39574,43,Alice,Malware,295
+2023-09-17,E-commerce,Europe,Antivirus,36958,41,Bob,Phishing,22
+2023-09-18,Bank,Europe,Endpoint Security,11108,39,Emma,Phishing,105
+2023-09-19,Hospital,Asia,Antivirus,14178,22,Bob,Malware,230
+2023-09-20,Bank,Asia,Antivirus,37643,49,Bob,Ransomware,247
+2023-09-21,Bank,Asia,SIEM,33324,17,Alice,DDoS,103
+2023-09-22,E-commerce,Asia,SIEM,40360,34,Bob,Phishing,278
+2023-09-23,Hospital,Europe,Antivirus,19824,6,Alice,Malware,180
+2023-09-24,Gov,US,Antivirus,47360,46,Emma,Phishing,103
+2023-09-25,Gov,Europe,Antivirus,10927,6,David,Malware,158
+2023-09-26,E-commerce,US,SIEM,30144,34,Alice,DDoS,121
+2023-09-27,E-commerce,Asia,SIEM,33010,1,Emma,DDoS,64
+2023-09-28,Hospital,Europe,Firewall,24443,10,David,Ransomware,125
+2023-09-29,Gov,Asia,Firewall,16437,21,Charlie,Malware,152
+2023-09-30,Gov,Europe,Antivirus,46298,5,Alice,Malware,210
+2023-10-01,Gov,Asia,Endpoint Security,41778,2,Alice,Ransomware,189
+2023-10-02,Bank,US,Endpoint Security,13207,22,Charlie,Ransomware,211
+2023-10-03,Gov,US,SIEM,27537,48,Charlie,Malware,62
+2023-10-04,Bank,US,SIEM,37757,2,Alice,Ransomware,189
+2023-10-05,Hospital,Europe,SIEM,14040,10,Charlie,DDoS,146
+2023-10-06,Bank,US,Antivirus,43986,34,Bob,Phishing,191
+2023-10-07,Hospital,Europe,Endpoint Security,24612,16,David,DDoS,10
+2023-10-08,Gov,US,Firewall,30441,48,David,Ransomware,53
+2023-10-09,Gov,US,Antivirus,8471,39,David,Malware,236
+2023-10-10,Hospital,Europe,Firewall,37631,22,Bob,Malware,107
+2023-10-11,E-commerce,Europe,Firewall,45461,12,Charlie,DDoS,217
+2023-10-12,Hospital,US,Antivirus,28523,24,Emma,Malware,274
+2023-10-13,E-commerce,Europe,Firewall,33348,47,Charlie,Ransomware,297
+2023-10-14,Bank,US,Endpoint Security,9531,40,Alice,DDoS,280
+2023-10-15,Bank,Europe,Firewall,6760,38,David,Malware,149
+2023-10-16,Bank,Asia,Endpoint Security,34779,10,Charlie,Phishing,246
+2023-10-17,Gov,Asia,Endpoint Security,23636,35,Emma,Phishing,81
+2023-10-18,Bank,Asia,Endpoint Security,18353,49,Alice,Ransomware,656
+2023-10-19,E-commerce,Asia,SIEM,13556,32,Bob,Malware,199
+2023-10-20,Bank,Asia,Firewall,29598,7,Bob,Ransomware,277
+2023-10-21,Hospital,US,Antivirus,13563,21,Emma,DDoS,116
+2023-10-22,Hospital,Asia,Antivirus,48819,20,Alice,Phishing,241
+2023-10-23,Gov,Asia,Firewall,45790,26,David,DDoS,51
+2023-10-24,Hospital,Asia,SIEM,10234,4,Charlie,Malware,199
+2023-10-25,E-commerce,Asia,SIEM,27519,46,Alice,Ransomware,148
+2023-10-26,Bank,Europe,Endpoint Security,28966,22,Bob,Ransomware,112
+2023-10-27,Gov,US,Firewall,18173,15,Emma,Ransomware,180
+2023-10-28,Bank,Asia,Firewall,28987,40,Emma,DDoS,282
+2023-10-29,Bank,Asia,Antivirus,15178,21,Charlie,Phishing,230
+2023-10-30,E-commerce,Asia,Firewall,41338,15,Emma,DDoS,222
+2023-10-31,Hospital,US,SIEM,26596,22,Emma,DDoS,65
+2023-11-01,Hospital,Europe,Firewall,35174,28,Alice,Malware,111
+2023-11-02,Bank,US,Antivirus,43974,14,David,Malware,201
+2023-11-03,Gov,Europe,Endpoint Security,6431,27,Charlie,Malware,209
+2023-11-04,Hospital,Asia,Antivirus,29764,41,Alice,Phishing,242
+2023-11-05,Gov,Asia,Antivirus,23627,40,David,Phishing,236
+2023-11-06,Hospital,US,Endpoint Security,123930,28,Alice,Malware,148
+2023-11-07,Gov,US,Antivirus,10906,26,Alice,Malware,158
+2023-11-08,E-commerce,Europe,Antivirus,38914,49,Emma,Phishing,124
+2023-11-09,Gov,Europe,Firewall,46814,2,David,Ransomware,72
+2023-11-10,E-commerce,US,Firewall,47379,25,Charlie,Phishing,113
+2023-11-11,E-commerce,Europe,Endpoint Security,15076,3,Charlie,Phishing,165
+2023-11-12,Gov,US,Firewall,39650,8,David,Phishing,282
+2023-11-13,E-commerce,Europe,Firewall,48881,44,Emma,Malware,15
+2023-11-14,Bank,US,Antivirus,48413,33,Bob,Ransomware,156
+2023-11-15,E-commerce,US,SIEM,8012,42,Alice,Phishing,193
+2023-11-16,Hospital,US,Firewall,9151,35,Emma,Malware,37
+2023-11-17,Gov,Europe,SIEM,30211,6,David,DDoS,47
+2023-11-18,Bank,Europe,Firewall,29117,39,Alice,DDoS,128
+2023-11-19,Gov,Europe,Firewall,38378,23,Charlie,Phishing,253
+2023-11-20,Hospital,US,Endpoint Security,44652,25,Bob,DDoS,77
+2023-11-21,Hospital,Europe,Endpoint Security,8894,43,Charlie,Ransomware,223
+2023-11-22,Hospital,Europe,Endpoint Security,15467,19,David,DDoS,908
+2023-11-23,E-commerce,US,SIEM,33010,5,Alice,DDoS,186
+2023-11-24,E-commerce,Asia,Antivirus,44641,11,David,Ransomware,173
+2023-11-25,Gov,US,Firewall,14289,12,Alice,Phishing,67
+2023-11-26,Gov,Europe,Firewall,46976,10,Emma,Phishing,278
+2023-11-27,Bank,US,Firewall,45596,8,Bob,Ransomware,67
+2023-11-28,Bank,Asia,SIEM,25171,24,Emma,Ransomware,297
+2023-11-29,Gov,US,Endpoint Security,36905,28,Emma,Ransomware,114
+2023-11-30,E-commerce,Europe,Antivirus,22829,41,David,DDoS,237
+2023-12-01,Hospital,Asia,SIEM,36054,36,Bob,Ransomware,256
+2023-12-02,Gov,Europe,Endpoint Security,46139,37,Alice,Malware,197
+2023-12-03,Bank,Asia,SIEM,31734,21,Alice,DDoS,92
+2023-12-04,E-commerce,Asia,Antivirus,9052,8,Charlie,Phishing,195
+2023-12-05,Gov,US,Endpoint Security,5654,9,Alice,Phishing,261
+2023-12-06,Gov,US,SIEM,25486,47,David,Phishing,247
+2023-12-07,E-commerce,Europe,Antivirus,20743,15,Emma,DDoS,193
+2023-12-08,Gov,US,Firewall,26489,48,Emma,Malware,293
+2023-12-09,E-commerce,US,Antivirus,10636,46,Emma,Ransomware,219
+2023-12-10,Hospital,Asia,Firewall,8441,40,Bob,Ransomware,106
+2023-12-11,E-commerce,US,SIEM,26611,18,Alice,Phishing,217
+2023-12-12,E-commerce,Asia,Endpoint Security,44435,42,David,Phishing,146
+2023-12-13,E-commerce,Asia,Endpoint Security,14149,20,Bob,DDoS,193
+2023-12-14,Gov,Asia,SIEM,36566,6,Charlie,Malware,85
+2023-12-15,Gov,Europe,Endpoint Security,44368,12,David,Ransomware,296
+2023-12-16,E-commerce,Europe,Endpoint Security,23675,2,David,DDoS,151
+2023-12-17,Gov,Europe,Firewall,7495,7,David,Ransomware,246
+2023-12-18,Bank,Asia,SIEM,44668,16,Emma,Phishing,34
+2023-12-19,Bank,Europe,Antivirus,15673,3,David,Ransomware,299
+2023-12-20,Gov,Europe,Firewall,13130,45,Alice,Malware,76
+2023-12-21,Gov,US,SIEM,74004,3,David,Malware,259
+2023-12-22,E-commerce,Europe,Firewall,17222,27,Emma,Phishing,127
+2023-12-23,Hospital,Europe,Antivirus,25669,43,David,Malware,82
+2023-12-24,Gov,Asia,Antivirus,36068,40,Charlie,Malware,291
+2023-12-25,Bank,Asia,SIEM,25253,38,Charlie,DDoS,19
+2023-12-26,E-commerce,Asia,Antivirus,11435,33,Emma,Ransomware,220
+2023-12-27,Gov,Asia,Firewall,30552,28,Alice,Phishing,161
+2023-12-28,Bank,Asia,Antivirus,39384,1,Alice,Phishing,14
+2023-12-29,Bank,Asia,Firewall,18393,8,Bob,Phishing,204
+2023-12-30,Hospital,Europe,Firewall,12617,37,Emma,Phishing,292
+2023-12-31,E-commerce,Asia,Antivirus,40520,32,David,Phishing,122
+2024-01-01,E-commerce,Asia,SIEM,11852,48,Emma,Malware,280
+2024-01-02,Hospital,US,Endpoint Security,33401,43,Bob,DDoS,172
+2024-01-03,Hospital,Europe,Antivirus,8295,37,Emma,Phishing,114
+2024-01-04,E-commerce,Europe,Firewall,37993,4,Emma,DDoS,190
+2024-01-05,E-commerce,Europe,Firewall,36084,30,Bob,DDoS,53
+2024-01-06,Gov,Asia,Antivirus,47105,6,Alice,Malware,291
+2024-01-07,Gov,Asia,SIEM,124725,46,David,Phishing,184
+2024-01-08,Hospital,Asia,SIEM,38451,19,Bob,Malware,171
+2024-01-09,Gov,US,Firewall,9227,32,Charlie,Phishing,149
+2024-01-10,Bank,Asia,Firewall,33910,9,Alice,Malware,141
+2024-01-11,Gov,US,SIEM,38041,12,Charlie,DDoS,96
+2024-01-12,Gov,Europe,Endpoint Security,25384,11,Alice,Phishing,185
+2024-01-13,Bank,Asia,Antivirus,2145,46,David,Ransomware,192
+2024-01-14,Hospital,US,Firewall,39778,16,David,DDoS,138
+2024-01-15,Bank,US,Firewall,18035,1,Emma,Ransomware,255
+2024-01-16,Gov,Asia,SIEM,5040,45,Charlie,DDoS,98
+2024-01-17,Hospital,Europe,Antivirus,44422,21,Alice,Malware,75
+2024-01-18,Gov,Europe,SIEM,28160,30,David,Phishing,167
+2024-01-19,Bank,Europe,Antivirus,19633,13,Bob,DDoS,158
+2024-01-20,Bank,US,Antivirus,31344,34,David,Malware,125
+2024-01-21,Gov,US,Antivirus,19014,4,Bob,Phishing,223
+2024-01-22,E-commerce,US,Firewall,16996,28,Alice,Phishing,262
+2024-01-23,E-commerce,US,Endpoint Security,43621,38,David,DDoS,152
+2024-01-24,Bank,Europe,SIEM,13695,31,David,Phishing,259
+2024-01-25,Bank,Asia,Endpoint Security,4852,27,Alice,DDoS,34
+2024-01-26,E-commerce,US,SIEM,18014,5,David,Phishing,286
+2024-01-27,E-commerce,US,Antivirus,29042,25,Bob,Ransomware,79
+2024-01-28,Gov,Europe,Firewall,35755,3,David,Malware,122
+2024-01-29,Gov,Asia,Endpoint Security,42390,33,Charlie,Ransomware,121
+2024-01-30,E-commerce,Asia,Firewall,25711,4,Emma,DDoS,100
+2024-01-31,Gov,Europe,SIEM,28122,25,Bob,Ransomware,27
+2024-02-01,Gov,Europe,Firewall,11160,20,Charlie,DDoS,158
+2024-02-02,Hospital,Asia,Firewall,29213,34,Alice,Phishing,236
+2024-02-03,Gov,US,Endpoint Security,41420,26,Bob,Phishing,223
+2024-02-04,Bank,Asia,Antivirus,9421,5,Emma,DDoS,160
+2024-02-05,Gov,Europe,Firewall,23400,35,Emma,Ransomware,201
+2024-02-06,Gov,US,Antivirus,35537,28,Alice,Phishing,49
+2024-02-07,E-commerce,US,SIEM,19727,29,Alice,Malware,251
+2024-02-08,Bank,Europe,Firewall,48882,9,Bob,Phishing,147
+2024-02-09,Gov,Europe,Endpoint Security,6358,38,David,Malware,189
+2024-02-10,Gov,Europe,SIEM,30482,6,Alice,Ransomware,209
+2024-02-11,Hospital,Asia,SIEM,34117,19,David,Malware,212
+2024-02-12,Gov,Asia,Endpoint Security,25164,44,Charlie,Malware,70
+2024-02-13,Gov,US,Firewall,33910,11,Emma,Malware,804
+2024-02-14,Hospital,Europe,Firewall,34496,2,David,Malware,14
+2024-02-15,E-commerce,US,SIEM,46311,47,Emma,Phishing,246
+2024-02-16,Gov,US,Firewall,31371,44,David,Malware,190
+2024-02-17,Hospital,US,Antivirus,40467,44,Charlie,Phishing,46
+2024-02-18,Bank,US,Endpoint Security,19625,9,Alice,Malware,65
+2024-02-19,E-commerce,Europe,Antivirus,35893,21,Charlie,DDoS,246
+2024-02-20,Bank,US,Firewall,12793,24,Alice,Ransomware,206
+2024-02-21,Bank,Europe,SIEM,33007,34,Alice,Malware,82
+2024-02-22,Hospital,Europe,Endpoint Security,27766,22,Emma,DDoS,68
+2024-02-23,Gov,Asia,Firewall,41532,3,Charlie,Malware,249
+2024-02-24,Hospital,Europe,Firewall,14323,12,David,Malware,11
+2024-02-25,Hospital,Asia,SIEM,47799,28,Charlie,Malware,197
+2024-02-26,Hospital,Europe,SIEM,48820,30,Emma,DDoS,39
+2024-02-27,Hospital,Europe,Antivirus,47408,26,Alice,Ransomware,276
+2024-02-28,E-commerce,Europe,Endpoint Security,9843,48,Emma,DDoS,117
+2024-02-29,Gov,Asia,Endpoint Security,16210,21,Bob,Ransomware,99
+2024-03-01,Bank,Asia,SIEM,18456,28,Bob,Malware,214
+2024-03-02,Bank,US,Antivirus,33367,26,David,Phishing,229
+2024-03-03,Gov,Asia,Endpoint Security,12106,33,Emma,Malware,103
+2024-03-04,Bank,Asia,SIEM,39957,21,David,Ransomware,112
+2024-03-05,Gov,Asia,Firewall,4472,35,David,DDoS,232
+2024-03-06,Bank,Asia,Endpoint Security,8704,34,Bob,Malware,195
+2024-03-07,Hospital,US,Antivirus,5713,41,David,DDoS,193
+2024-03-08,Bank,Asia,Antivirus,7051,47,Bob,DDoS,171
+2024-03-09,Gov,Europe,Antivirus,12756,18,Alice,DDoS,256
+2024-03-10,Gov,Europe,Firewall,4475,11,Emma,Malware,40
+2024-03-11,Gov,Asia,Endpoint Security,38378,23,David,DDoS,61
+2024-03-12,Gov,Asia,Endpoint Security,6255,48,Bob,DDoS,85
+2024-03-13,Gov,Europe,Firewall,16484,22,Charlie,Malware,287
+2024-03-14,E-commerce,Europe,Endpoint Security,36503,17,David,DDoS,49
+2024-03-15,E-commerce,US,Firewall,10258,5,Alice,Malware,110
+2024-03-16,Bank,Europe,Firewall,42747,44,Alice,Ransomware,120
+2024-03-17,Gov,Europe,Firewall,37196,11,Charlie,Ransomware,258
+2024-03-18,Bank,Asia,Antivirus,47113,30,Bob,Ransomware,200
+2024-03-19,Gov,Europe,Endpoint Security,42194,15,David,DDoS,191
+2024-03-20,Gov,US,Firewall,10533,27,Bob,Phishing,218
+2024-03-21,E-commerce,Europe,Endpoint Security,34581,35,Alice,Phishing,31
+2024-03-22,E-commerce,Asia,Antivirus,7249,33,Bob,DDoS,175
+2024-03-23,Hospital,Asia,Firewall,21201,20,Alice,Phishing,108
+2024-03-24,E-commerce,Europe,SIEM,11686,16,Bob,Malware,217
+2024-03-25,Hospital,Asia,Antivirus,48877,34,Charlie,Phishing,17
+2024-03-26,Hospital,US,SIEM,34007,2,Emma,DDoS,199
+2024-03-27,Hospital,US,Endpoint Security,2661,35,Charlie,DDoS,184
+2024-03-28,Hospital,Europe,Endpoint Security,46843,40,Charlie,Malware,282
+2024-03-29,Hospital,Europe,Antivirus,32137,28,Emma,Ransomware,26
+2024-03-30,Bank,Europe,Endpoint Security,49556,47,Emma,DDoS,99
+2024-03-31,E-commerce,Asia,SIEM,44828,39,David,Malware,150
+2024-04-01,Hospital,US,Firewall,12526,6,David,Phishing,154
+2024-04-02,Gov,US,Firewall,5374,9,Charlie,Phishing,175
+2024-04-03,E-commerce,Asia,Firewall,27592,20,Charlie,Malware,87
+2024-04-04,E-commerce,US,Antivirus,30982,1,Alice,Malware,271
+2024-04-05,Hospital,Europe,Endpoint Security,2207,8,Alice,DDoS,172
+2024-04-06,Bank,Europe,SIEM,37433,23,David,Phishing,23
+2024-04-07,Hospital,Europe,Endpoint Security,25197,3,David,Malware,248
+2024-04-08,Bank,US,Endpoint Security,35400,4,Alice,Phishing,81
+2024-04-09,Gov,Europe,Endpoint Security,5083,25,Alice,Malware,152
+2024-04-10,E-commerce,Asia,Firewall,31328,47,Bob,Phishing,292
+2024-04-11,Gov,Asia,SIEM,48479,38,Bob,Ransomware,278
+2024-04-12,Bank,US,SIEM,44891,15,Alice,DDoS,250
+2024-04-13,Bank,Asia,Endpoint Security,22103,21,Bob,Phishing,254
+2024-04-14,Gov,Asia,Firewall,41891,35,Emma,Ransomware,172
+2024-04-15,Bank,US,Firewall,12754,46,David,Phishing,69
+2024-04-16,Gov,Europe,SIEM,36447,14,David,Phishing,15
+2024-04-17,E-commerce,Europe,Firewall,17901,36,Alice,Ransomware,206
+2024-04-18,Gov,Europe,Firewall,35004,12,Charlie,Phishing,67
+2024-04-19,E-commerce,US,Firewall,9446,17,Alice,Phishing,226
+2024-04-20,Gov,Asia,Antivirus,117633,39,Bob,DDoS,35
+2024-04-21,Bank,Europe,Endpoint Security,31301,9,Charlie,Ransomware,14
+2024-04-22,Gov,Europe,SIEM,28116,35,Bob,Ransomware,29
+2024-04-23,Bank,US,SIEM,43323,13,Emma,Malware,207
+2024-04-24,Gov,Europe,Antivirus,20752,15,Bob,Phishing,68
+2024-04-25,Gov,US,Endpoint Security,34376,18,Emma,DDoS,251
+2024-04-26,Hospital,Asia,SIEM,18669,33,Emma,Phishing,155
+2024-04-27,Bank,US,Firewall,34916,6,Bob,Phishing,282
+2024-04-28,Hospital,US,SIEM,15395,27,Bob,Malware,258
+2024-04-29,Bank,US,Firewall,22421,23,Emma,Phishing,23
+2024-04-30,Hospital,US,Antivirus,28342,27,Charlie,DDoS,22
+2024-05-01,E-commerce,Asia,Firewall,6895,34,Emma,DDoS,53
+2024-05-02,Gov,Asia,SIEM,13023,46,David,Malware,28
+2024-05-03,Bank,Europe,SIEM,12699,38,Emma,Phishing,72
+2024-05-04,Bank,Asia,SIEM,11715,14,Charlie,DDoS,248
+2024-05-05,Gov,Asia,Antivirus,21169,36,David,Phishing,109
+2024-05-06,Bank,Europe,Antivirus,18163,8,Alice,Phishing,172
+2024-05-07,Bank,Asia,Endpoint Security,7782,35,Alice,Phishing,131
+2024-05-08,Hospital,US,SIEM,24641,19,Charlie,Malware,53
+2024-05-09,Bank,US,Firewall,62376,30,Emma,Phishing,154
+2024-05-10,E-commerce,Europe,Antivirus,37585,14,Bob,DDoS,59
+2024-05-11,E-commerce,Europe,SIEM,32682,20,Charlie,Phishing,74
+2024-05-12,Gov,Europe,SIEM,49864,49,David,DDoS,297
+2024-05-13,Bank,US,Antivirus,20880,25,David,Phishing,173
+2024-05-14,Gov,Asia,Endpoint Security,40067,40,Alice,DDoS,150
+2024-05-15,E-commerce,US,Antivirus,44685,24,David,DDoS,137
+2024-05-16,Bank,Europe,Antivirus,20073,14,Charlie,Phishing,248
+2024-05-17,Bank,Asia,Firewall,38035,26,David,Phishing,196
+2024-05-18,Gov,Asia,Firewall,39174,38,Charlie,DDoS,217
+2024-05-19,E-commerce,US,Endpoint Security,26837,23,Bob,Ransomware,229
+2024-05-20,Bank,Europe,SIEM,19826,22,Alice,Malware,199
+2024-05-21,Gov,US,Antivirus,26981,48,David,Ransomware,293
+2024-05-22,E-commerce,Asia,Endpoint Security,12382,19,Charlie,Ransomware,984
+2024-05-23,Gov,US,Firewall,6437,46,Emma,Phishing,203
+2024-05-24,Hospital,US,Antivirus,7435,3,Alice,Malware,296
+2024-05-25,Bank,Europe,SIEM,26819,42,Bob,Ransomware,1072
+2024-05-26,Hospital,Europe,Firewall,38875,19,Charlie,Phishing,255
+2024-05-27,E-commerce,Asia,Firewall,33982,9,Bob,Ransomware,145
+2024-05-28,Hospital,US,Firewall,35328,28,Bob,Ransomware,289
+2024-05-29,Hospital,US,Endpoint Security,14329,20,David,Phishing,280
+2024-05-30,E-commerce,US,SIEM,27169,45,David,Phishing,180
+2024-05-31,Gov,Asia,Antivirus,23932,7,Charlie,Phishing,168
+2024-06-01,Hospital,Asia,Endpoint Security,36594,14,Emma,Malware,210
+2024-06-02,Gov,Europe,Endpoint Security,13421,9,Charlie,Ransomware,54
+2024-06-03,Hospital,Europe,Endpoint Security,47033,19,Emma,Phishing,273
+2024-06-04,Gov,Europe,Firewall,9629,47,Bob,DDoS,80
+2024-06-05,E-commerce,US,SIEM,10325,14,Alice,Ransomware,112
+2024-06-06,Hospital,US,Endpoint Security,30495,38,Charlie,DDoS,134
+2024-06-07,E-commerce,Europe,Antivirus,33750,36,Charlie,Malware,295
+2024-06-08,Hospital,US,SIEM,31619,40,Emma,Phishing,239
+2024-06-09,E-commerce,Europe,Antivirus,42461,17,Bob,DDoS,155
+2024-06-10,E-commerce,Asia,SIEM,10264,30,Bob,Malware,206
+2024-06-11,Hospital,Europe,Antivirus,14686,9,Emma,Phishing,230
+2024-06-12,Hospital,Asia,Firewall,48484,33,Bob,DDoS,69
+2024-06-13,Hospital,US,Endpoint Security,26226,25,David,DDoS,107
+2024-06-14,Bank,Europe,Antivirus,8721,14,Alice,Malware,180
+2024-06-15,Gov,US,SIEM,22609,11,Charlie,Phishing,182
+2024-06-16,Bank,Asia,Endpoint Security,9373,35,Alice,Phishing,160
+2024-06-17,Bank,Asia,Endpoint Security,40675,41,Charlie,DDoS,131
+2024-06-18,E-commerce,Asia,SIEM,30937,14,David,DDoS,117
+2024-06-19,Hospital,US,Antivirus,7656,30,Bob,DDoS,13
+2024-06-20,Gov,US,Firewall,10984,41,Emma,Phishing,102
+2024-06-21,E-commerce,US,Firewall,31984,4,David,Malware,15
+2024-06-22,Bank,US,Antivirus,10286,4,Alice,Malware,297
+2024-06-23,Hospital,Asia,Endpoint Security,7901,28,Emma,Phishing,115
+2024-06-24,E-commerce,Asia,Endpoint Security,33552,8,Bob,Ransomware,155
+2024-06-25,Hospital,Europe,Endpoint Security,27709,2,David,Malware,280
+2024-06-26,E-commerce,Europe,Endpoint Security,33055,41,Emma,DDoS,105
+2024-06-27,Hospital,US,Antivirus,39685,46,David,Ransomware,238
+2024-06-28,Bank,Asia,Endpoint Security,10429,22,David,Ransomware,211
+2024-06-29,Gov,Asia,SIEM,16716,41,Bob,Malware,221
+2024-06-30,Bank,Asia,Endpoint Security,13138,16,Charlie,Ransomware,15
+2024-07-01,Gov,Europe,Firewall,37298,29,Emma,Ransomware,121
+2024-07-02,Hospital,Europe,Endpoint Security,25429,49,Bob,Malware,115
+2024-07-03,E-commerce,Asia,Antivirus,7772,48,David,Malware,148
+2024-07-04,Bank,Asia,Firewall,37732,30,Bob,Ransomware,105
+2024-07-05,Gov,Asia,Antivirus,41905,12,Charlie,DDoS,223
+2024-07-06,Bank,Europe,Antivirus,19347,35,Emma,Phishing,31
+2024-07-07,Gov,Asia,Firewall,18920,11,Charlie,Ransomware,202
+2024-07-08,Bank,Asia,Antivirus,33822,46,Alice,Ransomware,159
+2024-07-09,Gov,US,Antivirus,145977,21,Emma,DDoS,256
+2024-07-10,Gov,US,Endpoint Security,42108,21,Charlie,Ransomware,276
+2024-07-11,Hospital,Europe,SIEM,25563,5,David,Ransomware,260
+2024-07-12,Gov,Asia,Antivirus,9967,48,Emma,Phishing,12
+2024-07-13,Hospital,Asia,Antivirus,47183,20,Emma,Phishing,85
+2024-07-14,Gov,US,Antivirus,13871,37,Bob,Phishing,96
+2024-07-15,E-commerce,Europe,Endpoint Security,30763,3,David,Malware,279
+2024-07-16,E-commerce,US,SIEM,13916,44,Alice,Malware,234
+2024-07-17,E-commerce,US,Firewall,10734,33,Charlie,Phishing,27
+2024-07-18,Gov,US,Endpoint Security,35613,9,Bob,Phishing,122
+2024-07-19,Hospital,US,Endpoint Security,30179,9,Charlie,Malware,260
+2024-07-20,Hospital,Asia,SIEM,37262,4,Alice,DDoS,242
+2024-07-21,Gov,Asia,SIEM,14677,35,Alice,Ransomware,288
+2024-07-22,E-commerce,US,Endpoint Security,20268,17,Emma,Ransomware,211
+2024-07-23,E-commerce,Europe,Firewall,14330,34,Alice,Phishing,92
+2024-07-24,Hospital,Europe,Endpoint Security,22733,24,Charlie,DDoS,134
+2024-07-25,E-commerce,Europe,SIEM,39947,32,David,Malware,184
+2024-07-26,Bank,Europe,Firewall,29286,1,David,Phishing,78
+2024-07-27,Hospital,US,SIEM,8610,8,Emma,DDoS,56
+2024-07-28,E-commerce,Asia,Firewall,8430,45,Charlie,DDoS,265
+2024-07-29,Hospital,Europe,Antivirus,41922,23,Charlie,DDoS,224
+2024-07-30,Bank,US,SIEM,15828,47,Alice,Malware,39
+2024-07-31,Hospital,Europe,SIEM,44913,40,Charlie,Malware,290
+2024-08-01,Hospital,Europe,Endpoint Security,33497,12,Bob,Ransomware,246
+2024-08-02,Hospital,US,SIEM,41256,12,Alice,Ransomware,257
+2024-08-03,Hospital,Asia,SIEM,38618,46,Bob,DDoS,34
+2024-08-04,Bank,Asia,Antivirus,48332,47,Emma,DDoS,83
+2024-08-05,Gov,US,SIEM,28526,15,David,Malware,215
+2024-08-06,Hospital,Asia,Antivirus,32158,41,Emma,Ransomware,103
+2024-08-07,Hospital,US,Antivirus,27032,19,David,DDoS,136
+2024-08-08,E-commerce,US,Antivirus,39846,26,Emma,Ransomware,34
+2024-08-09,Hospital,US,Antivirus,46936,29,Charlie,Ransomware,125
+2024-08-10,E-commerce,Asia,Firewall,31794,22,Bob,DDoS,57
+2024-08-11,Gov,US,Endpoint Security,7448,40,David,Malware,235
+2024-08-12,Bank,Europe,Firewall,30861,21,Alice,DDoS,275
+2024-08-13,Bank,Asia,SIEM,30141,38,Bob,DDoS,108
+2024-08-14,Gov,Asia,Firewall,11074,20,Alice,Ransomware,20
+2024-08-15,Bank,Asia,Firewall,8406,29,Bob,DDoS,94
+2024-08-16,Gov,Asia,SIEM,33823,4,Bob,Malware,223
+2024-08-17,Gov,Europe,SIEM,25291,7,Emma,DDoS,182
+2024-08-18,Gov,Asia,SIEM,43568,28,David,Malware,218
+2024-08-19,Bank,Asia,Firewall,34003,28,David,Malware,73
+2024-08-20,E-commerce,US,Firewall,48851,4,Bob,Ransomware,267
+2024-08-21,Gov,Asia,SIEM,36406,22,Charlie,Phishing,130
+2024-08-22,Hospital,Europe,Endpoint Security,25312,12,Charlie,Phishing,63
+2024-08-23,Bank,Europe,Endpoint Security,45108,45,Alice,Ransomware,1124
+2024-08-24,Gov,Europe,Antivirus,3382,3,Alice,DDoS,250
+2024-08-25,Gov,Europe,SIEM,36171,22,Emma,Ransomware,252
+2024-08-26,Hospital,Asia,Antivirus,43779,44,Bob,Malware,27
+2024-08-27,E-commerce,Asia,Endpoint Security,5292,2,Alice,Phishing,196
+2024-08-28,E-commerce,Europe,Antivirus,43779,24,Alice,Ransomware,153
+2024-08-29,E-commerce,Europe,SIEM,35187,34,Bob,DDoS,1084
+2024-08-30,Gov,Asia,SIEM,14411,27,Emma,Ransomware,992
+2024-08-31,Gov,Europe,SIEM,39285,41,Alice,Phishing,85
+2024-09-01,Gov,US,Firewall,52266,1,Emma,Ransomware,197
+2024-09-02,Bank,Europe,Antivirus,44468,8,David,Ransomware,255
+2024-09-03,Hospital,Europe,Endpoint Security,34371,23,Emma,Phishing,139
+2024-09-04,Gov,US,Endpoint Security,7693,38,Charlie,Malware,292
+2024-09-05,Hospital,US,Endpoint Security,35535,6,Charlie,Malware,88
+2024-09-06,Hospital,Asia,Firewall,16818,22,Emma,Phishing,81
+2024-09-07,E-commerce,Asia,Firewall,99714,25,Charlie,Ransomware,272
+2024-09-08,Bank,US,SIEM,32874,18,David,Phishing,200
+2024-09-09,Gov,US,Endpoint Security,28715,17,Bob,Malware,72
+2024-09-10,E-commerce,Asia,Firewall,29605,12,Charlie,DDoS,21
+2024-09-11,E-commerce,Europe,SIEM,36317,6,Charlie,Ransomware,150
+2024-09-12,Gov,US,Endpoint Security,33174,26,Emma,Malware,263
+2024-09-13,Hospital,Asia,Antivirus,11956,27,David,Ransomware,52
+2024-09-14,E-commerce,Europe,SIEM,40908,8,Bob,Phishing,26
+2024-09-15,Hospital,US,Firewall,12837,19,Emma,DDoS,72
+2024-09-16,Bank,Europe,Firewall,5716,42,Emma,Phishing,262
+2024-09-17,Hospital,Asia,SIEM,6481,1,David,DDoS,17
+2024-09-18,Bank,US,SIEM,26282,29,Bob,Ransomware,99
+2024-09-19,Hospital,Europe,Firewall,8548,45,David,Ransomware,217
+2024-09-20,E-commerce,US,Antivirus,39605,49,Bob,Phishing,293
+2024-09-21,E-commerce,Europe,Endpoint Security,9758,35,David,DDoS,127
+2024-09-22,Bank,Asia,Antivirus,45668,40,Emma,DDoS,184
+2024-09-23,Gov,Asia,SIEM,25177,14,Emma,Ransomware,85
+2024-09-24,Bank,US,Antivirus,26022,35,Alice,Phishing,110
+2024-09-25,Bank,Europe,Firewall,42761,48,Charlie,DDoS,160
+2024-09-26,Hospital,US,SIEM,7542,45,David,Ransomware,279
+2024-09-27,Hospital,US,Endpoint Security,27476,20,Alice,Malware,80
+2024-09-28,Bank,Europe,Firewall,32784,49,Charlie,Phishing,189
+2024-09-29,E-commerce,Europe,Firewall,24740,13,David,Malware,133
+2024-09-30,Hospital,Europe,Endpoint Security,26817,38,Bob,Phishing,294
+2024-10-01,Gov,Asia,Endpoint Security,49596,49,Charlie,Ransomware,204
+2024-10-02,Hospital,US,Antivirus,18052,46,Emma,DDoS,948
+2024-10-03,Hospital,US,SIEM,37153,49,Alice,DDoS,284
+2024-10-04,Gov,Asia,Endpoint Security,49076,8,Charlie,DDoS,115
+2024-10-05,Bank,Europe,Endpoint Security,2671,43,Charlie,Phishing,30
+2024-10-06,Gov,Asia,SIEM,2163,20,Emma,Ransomware,292
+2024-10-07,Bank,Asia,Endpoint Security,43424,33,David,Malware,174
+2024-10-08,Bank,Asia,Endpoint Security,46002,26,Bob,Ransomware,36
+2024-10-09,Bank,US,Antivirus,6795,39,Emma,Malware,294
+2024-10-10,Gov,Asia,Firewall,12634,21,Bob,Phishing,157
+2024-10-11,Bank,US,Firewall,6798,49,David,Phishing,290
+2024-10-12,E-commerce,US,Firewall,24420,42,Charlie,Malware,173
+2024-10-13,Gov,US,Firewall,31300,43,Bob,Malware,233
+2024-10-14,E-commerce,Europe,Endpoint Security,26345,41,Alice,Malware,281
+2024-10-15,Bank,US,SIEM,12749,9,Alice,Ransomware,155
+2024-10-16,Hospital,US,SIEM,40595,24,Emma,Malware,39
+2024-10-17,Bank,Europe,Antivirus,27121,37,David,Phishing,54
+2024-10-18,E-commerce,US,Antivirus,39487,49,Emma,Phishing,284
+2024-10-19,E-commerce,Asia,Endpoint Security,30411,41,Emma,DDoS,43
+2024-10-20,Gov,Asia,SIEM,35361,17,Emma,Malware,150
+2024-10-21,Hospital,US,SIEM,23223,24,Alice,Ransomware,230
+2024-10-22,Gov,Europe,Firewall,9394,21,Alice,Ransomware,31
+2024-10-23,E-commerce,Asia,Endpoint Security,16056,39,Emma,Ransomware,189
+2024-10-24,Bank,Europe,Endpoint Security,30380,41,Alice,DDoS,240
+2024-10-25,Hospital,Europe,Firewall,28035,39,David,Phishing,47
+2024-10-26,Bank,Asia,Endpoint Security,32620,13,Emma,Ransomware,79
+2024-10-27,Bank,Europe,Endpoint Security,21877,11,Alice,Phishing,125
+2024-10-28,Hospital,Asia,Antivirus,45404,46,Bob,DDoS,248
+2024-10-29,Gov,Europe,SIEM,32911,19,Emma,Malware,157
+2024-10-30,Bank,Asia,Endpoint Security,34784,11,Emma,Malware,18
+2024-10-31,E-commerce,US,Antivirus,5191,13,David,Malware,297
+2024-11-01,Bank,Asia,SIEM,35160,46,Charlie,Ransomware,59
+2024-11-02,Hospital,Asia,Firewall,27000,45,Charlie,Malware,14
+2024-11-03,Hospital,Asia,Antivirus,41040,1,David,Ransomware,135
+2024-11-04,Hospital,Asia,Antivirus,5631,40,David,DDoS,84
+2024-11-05,Gov,Europe,SIEM,8172,44,David,DDoS,174
+2024-11-06,Bank,US,Firewall,44080,19,Charlie,Ransomware,287
+2024-11-07,Gov,Asia,Antivirus,25561,12,David,Phishing,299
+2024-11-08,Gov,Europe,Endpoint Security,26817,8,Alice,Malware,86
+2024-11-09,Hospital,US,Endpoint Security,22281,8,Emma,Malware,146
+2024-11-10,Hospital,US,Endpoint Security,30671,45,Emma,Malware,115
+2024-11-11,Gov,US,Firewall,27364,12,Bob,Ransomware,104
+2024-11-12,Bank,US,Antivirus,43674,48,Bob,DDoS,144
+2024-11-13,E-commerce,Asia,Endpoint Security,29425,33,Emma,Malware,77
+2024-11-14,Gov,Asia,Firewall,30602,45,Alice,DDoS,156
+2024-11-15,Bank,Europe,Endpoint Security,25253,26,Charlie,Malware,168
+2024-11-16,Hospital,Europe,SIEM,25472,39,Charlie,Malware,172
+2024-11-17,Hospital,Europe,Antivirus,10080,28,Alice,Ransomware,198
+2024-11-18,Bank,US,Antivirus,9099,5,Charlie,Phishing,104
+2024-11-19,E-commerce,US,Firewall,27431,8,David,Ransomware,190
+2024-11-20,Hospital,Asia,Firewall,33186,25,Emma,Malware,297
+2024-11-21,Hospital,US,Antivirus,49684,27,Emma,Malware,196
+2024-11-22,Hospital,US,Endpoint Security,32111,46,Alice,Phishing,147
+2024-11-23,Bank,US,Endpoint Security,41851,23,Charlie,DDoS,139
+2024-11-24,Gov,Europe,SIEM,24614,30,Bob,DDoS,203
+2024-11-25,Hospital,Europe,Endpoint Security,28724,45,Bob,Malware,282
+2024-11-26,Gov,Asia,Firewall,43991,47,Charlie,DDoS,153
+2024-11-27,E-commerce,US,Firewall,6940,23,Bob,Malware,25
+2024-11-28,Hospital,US,Endpoint Security,30758,49,Alice,Phishing,254
+2024-11-29,Hospital,Asia,Firewall,38224,47,Alice,Phishing,116
+2024-11-30,E-commerce,US,Antivirus,9788,20,Charlie,Malware,97
+2024-12-01,Hospital,US,Antivirus,30082,18,Bob,Phishing,138
+2024-12-02,Gov,Europe,Endpoint Security,26034,18,Alice,Ransomware,13
+2024-12-03,Bank,Asia,Antivirus,37479,2,Alice,Ransomware,104
+2024-12-04,Gov,Asia,Antivirus,13280,4,David,Phishing,218
+2024-12-05,Bank,Asia,SIEM,20052,30,David,Malware,234
+2024-12-06,Bank,Asia,SIEM,18531,33,Alice,Malware,56
+2024-12-07,Gov,Europe,Antivirus,24804,36,Charlie,Phishing,190
+2024-12-08,Gov,Europe,Endpoint Security,30903,18,Emma,DDoS,115
+2024-12-09,Gov,US,SIEM,46857,37,Emma,Ransomware,208
+2024-12-10,Gov,US,Firewall,12142,19,Alice,DDoS,115
+2024-12-11,E-commerce,US,Firewall,11866,47,Alice,Malware,289
+2024-12-12,Hospital,US,Firewall,6531,28,Alice,Malware,269
+2024-12-13,Bank,Europe,Endpoint Security,47454,40,Charlie,DDoS,117
+2024-12-14,Gov,Asia,Antivirus,40098,20,David,Phishing,28
+2024-12-15,Gov,Europe,Firewall,40278,49,Alice,DDoS,180
+2024-12-16,Gov,US,Endpoint Security,30138,33,Alice,DDoS,204
+2024-12-17,E-commerce,Europe,SIEM,29065,12,Bob,Ransomware,21
+2024-12-18,Gov,Asia,Antivirus,31956,15,Charlie,Ransomware,204
+2024-12-19,Gov,Asia,SIEM,43732,41,Alice,DDoS,292
+2024-12-20,Gov,Europe,Endpoint Security,41261,39,Bob,DDoS,191
+2024-12-21,Hospital,Europe,Firewall,12759,2,Emma,Malware,153
+2024-12-22,E-commerce,Europe,Firewall,7439,29,Alice,Ransomware,191
+2024-12-23,Gov,US,Endpoint Security,49241,41,Alice,Ransomware,39
+2024-12-24,Bank,Europe,Firewall,44533,10,Bob,Malware,372
+2024-12-25,Bank,Europe,Antivirus,30270,2,Charlie,Phishing,175
+2024-12-26,Bank,Europe,Endpoint Security,15279,11,Alice,Ransomware,293
+2024-12-27,E-commerce,Asia,SIEM,41279,13,Emma,Ransomware,290
+2024-12-28,E-commerce,Asia,Endpoint Security,46251,10,Alice,Phishing,105
+2024-12-29,Bank,US,Antivirus,25888,14,Emma,Ransomware,275
+2024-12-30,Gov,US,Antivirus,19630,18,David,Ransomware,234
+2024-12-31,E-commerce,Asia,Endpoint Security,37144,9,David,Phishing,204
+2025-01-01,Bank,Asia,Endpoint Security,33182,39,Emma,Phishing,255
+2025-01-02,Bank,Asia,Firewall,27538,28,Charlie,DDoS,217
+2025-01-03,Gov,Europe,Antivirus,13824,3,Alice,Malware,246
+2025-01-04,Hospital,Europe,Endpoint Security,34125,20,Alice,Malware,31
+2025-01-05,E-commerce,Asia,Endpoint Security,8979,6,David,Phishing,194
+2025-01-06,Gov,Europe,Antivirus,28189,27,Emma,Phishing,251
+2025-01-07,Bank,Europe,Endpoint Security,44600,2,Alice,Ransomware,292
+2025-01-08,Bank,US,Firewall,14504,29,Alice,DDoS,50
+2025-01-09,Gov,Asia,Antivirus,22669,38,Charlie,DDoS,171
+2025-01-10,E-commerce,Asia,Firewall,8910,3,Bob,Phishing,169
+2025-01-11,Hospital,Europe,Firewall,48857,16,David,Ransomware,98
+2025-01-12,Hospital,Asia,Firewall,36964,30,David,Ransomware,21
+2025-01-13,Bank,US,Firewall,22131,40,Bob,Malware,82
+2025-01-14,E-commerce,US,Antivirus,27227,2,Alice,Malware,85
+2025-01-15,Hospital,US,Firewall,7978,17,Charlie,Ransomware,210
+2025-01-16,E-commerce,Asia,Firewall,23991,41,Charlie,Malware,19
+2025-01-17,E-commerce,Asia,Endpoint Security,19153,12,David,Phishing,235
+2025-01-18,Bank,Asia,Antivirus,35548,35,Charlie,Ransomware,185
+2025-01-19,Hospital,Asia,Antivirus,44676,43,Bob,Malware,285
+2025-01-20,Gov,Asia,SIEM,41071,1,Alice,DDoS,48
+2025-01-21,Bank,US,Antivirus,49454,45,Bob,Ransomware,69
+2025-01-22,Hospital,Europe,Antivirus,5983,15,Emma,Ransomware,75
+2025-01-23,Hospital,US,SIEM,11503,26,David,DDoS,133
+2025-01-24,Hospital,Asia,Antivirus,31921,37,Charlie,Phishing,173
+2025-01-25,Hospital,US,Antivirus,18905,21,Emma,DDoS,168
+2025-01-26,Hospital,Asia,Antivirus,47838,49,Charlie,Ransomware,66
+2025-01-27,E-commerce,Asia,Antivirus,25953,31,Alice,Phishing,87
+2025-01-28,Bank,US,SIEM,28806,25,Alice,Malware,203
+2025-01-29,E-commerce,Asia,Antivirus,47000,23,Alice,Malware,294
+2025-01-30,Gov,Europe,Antivirus,24168,24,Charlie,Malware,24
+2025-01-31,Hospital,Asia,SIEM,6583,38,Emma,Ransomware,21
+2025-02-01,Bank,Europe,Endpoint Security,40714,28,Alice,DDoS,110
+2025-02-02,Hospital,Europe,Firewall,41896,21,Emma,Phishing,165
+2025-02-03,Bank,Asia,Endpoint Security,13889,43,Charlie,Malware,134
+2025-02-04,E-commerce,US,SIEM,29413,18,Emma,Phishing,289
+2025-02-05,Bank,Europe,Firewall,14275,36,Charlie,Ransomware,119
+2025-02-06,Gov,US,SIEM,13383,35,Charlie,Malware,155
+2025-02-07,Gov,Europe,SIEM,16291,45,David,Ransomware,225
+2025-02-08,Bank,Asia,Antivirus,48804,9,Charlie,DDoS,171
+2025-02-09,Bank,Asia,Firewall,13435,38,Charlie,Ransomware,137
+2025-02-10,Bank,Europe,Antivirus,29935,30,Bob,Ransomware,159
+2025-02-11,Bank,Asia,Firewall,106359,44,Alice,DDoS,45
+2025-02-12,Gov,Europe,SIEM,20544,34,David,Phishing,182
+2025-02-13,Hospital,Asia,SIEM,14258,32,David,DDoS,31
+2025-02-14,Bank,US,Endpoint Security,32841,3,David,DDoS,215
+2025-02-15,Bank,Asia,Firewall,12736,3,Bob,Ransomware,136
+2025-02-16,Gov,US,Antivirus,39643,28,Charlie,Phishing,226
+2025-02-17,Gov,Asia,Endpoint Security,45950,44,Alice,Malware,105
+2025-02-18,E-commerce,US,Endpoint Security,36964,15,Emma,DDoS,173
+2025-02-19,Bank,Asia,Endpoint Security,30044,41,Charlie,Phishing,157
+2025-02-20,E-commerce,US,Antivirus,41933,23,Bob,DDoS,27
+2025-02-21,Gov,Europe,Endpoint Security,17997,40,Charlie,DDoS,204
+2025-02-22,Gov,Europe,Antivirus,16215,11,Charlie,DDoS,160
+2025-02-23,Hospital,US,Endpoint Security,105207,48,Bob,DDoS,132
+2025-02-24,Bank,Asia,Antivirus,25911,32,David,Ransomware,196
+2025-02-25,E-commerce,US,SIEM,19030,36,David,Phishing,158
+2025-02-26,Gov,Asia,SIEM,31334,33,Alice,Phishing,113
+2025-02-27,Gov,Europe,SIEM,16571,24,Alice,Phishing,252
+2025-02-28,E-commerce,Asia,SIEM,44719,39,David,DDoS,960
+2025-03-01,Hospital,Europe,SIEM,30927,34,Emma,Ransomware,215
+2025-03-02,Gov,Asia,Endpoint Security,22714,28,Charlie,DDoS,207
+2025-03-03,Bank,Asia,Endpoint Security,45541,37,Emma,DDoS,96
+2025-03-04,Gov,Asia,Endpoint Security,25387,7,Charlie,Phishing,151
+2025-03-05,Bank,US,Antivirus,91332,4,David,DDoS,208
+2025-03-06,E-commerce,US,Antivirus,21921,37,Alice,Malware,55
+2025-03-07,Bank,Europe,Antivirus,15057,1,Alice,DDoS,1188
+2025-03-08,E-commerce,Europe,Antivirus,47268,1,Emma,Malware,24
+2025-03-09,Bank,US,SIEM,26858,47,Alice,DDoS,53
+2025-03-10,E-commerce,Europe,SIEM,46638,20,David,Ransomware,712
